@@ -104,7 +104,9 @@ $('.team_photo').on('click', function(){
            $('nav ul').slideToggle();
         }
       });
-      $('.team_photo').off('click')
+      $('.team_photo').on('tap', function(){
+        $('.team_photo_hov').remove();
+      })
    }
 
   // Gets height & width for hover div on load
