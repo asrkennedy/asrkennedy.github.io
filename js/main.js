@@ -84,7 +84,7 @@ $('.team_photo').on('click', function(){
 
   // Hides and shows robot for collapsible nav on resize for mobile
   $(window).resize(function(){
-     if (isMobile) {
+     if (isMobile.matches) {
        $('.title').show();
     } else {
       $('.title').hide();
@@ -92,7 +92,7 @@ $('.team_photo').on('click', function(){
   })
 
    // Toggles nav on mobile for different clicks
-   if (isMobile) {
+   if (isMobile.matches) {
      $('.title').on('click',function(){
           $('nav ul').slideToggle();
       });
