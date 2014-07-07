@@ -458,4 +458,12 @@ footer p {
     padding-bottom: 0;
     background-color: transparent;
   }
+
+  .team_text_more {
+    display: block;
+  }
+
+  .team_photo_hov {
+    display: none;
+  }
 }
