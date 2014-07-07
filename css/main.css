@@ -466,4 +466,9 @@ footer p {
   .team_photo_hov {
     display: none;
   }
+
+  .team_photo:hover .team_photo_hov {
+    visibility: none;
+    background-color: rgba(49, 141, 178, 0.8);
+}
 }
